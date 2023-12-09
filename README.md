@@ -32,6 +32,8 @@ Check out our FAQ for more information.
   - [**December 5 - Peaky Blinders**](#december-5---peaky-blinders)
   - [**December 6 - The Lost Algorithm Scrolls**](#december-6---the-lost-algorithm-scrolls)
   - [**December 7 - Baby Blocks**](#december-7---baby-blocks)
+  - [**December 8 - The Enchanted Forest**](#december-8---the-enchanted-forest)
+  - [**December 9 - Camels  on a String!**](#december-9---camels-on-a-string)
   - [**FAQ**](#faq)
 
 
@@ -338,6 +340,112 @@ Ancient algorithm scrolls containing the most potent coding spells have been sca
     
 - **References**
     - [Pythagoras Theorem](https://www.mathsisfun.com/pythagoras.html)
+ 
+----
+### December 8 - The Enchanted Forest
+
+   #### Problem Statement
+   
+In the mystical land of Pyborg, there lies an enchanted forest guarded by a magical creature. Legend has it that the only way to navigate through the forest is by creating a magical square.The creature is kind but loves patterns, and the magic square must follow a unique rule.
+
+The rule is as follows:
+    1.The numbers in the square must form an increasing sequence starting from 1.
+    2.The sum of the numbers in each row, column and both main diagonals must be the same.
+
+Write a function ‘find_path(n)’ that takes an odd integer ‘n’ as input and returns a 2D list representing the magic square required to safely traverse the enchanted forest.
+
+
+Constraints:
+The input ‘n’ is an odd integer (3<=n<=15)
+
+Help the brave adventurers in Pyborg to safely navigate the enchanted forest.
+
+
+
+   <p align="center"><img src="https://github.com/SVCE-ACM/A-December-Of-Algorithms-2023/assets/113821083/783a1d44-636d-4c5f-b7ae-69b6c9b7f355" width="400"></p>
+
+
+   
+   #### Sample Input/Output
+   ```
+Input: 3
+Output: 
+    2 7 6
+	9 5 1
+	4 3 8
+
+
+
+   ```
+
+   #### Explanation
+   ```
+
+  It is a 3x3 matrix where (2+7+6 = 2+9+4=15 ) and similarly all rows, diagonals and columns give the same sum as 15
+
+        
+   ```
+
+   ```
+Input: 5
+Output: 
+	       9    3   22  16  15
+	       2   21   20  14   8
+           25  19   13   7   1
+           18  12   6    5   24
+           11  10   4   23   17
+
+
+
+   ```
+### December 9 - Camels on a String!
+
+   #### Problem Statement
+   
+There is a sequence of words in camel case as a string of letters, s, having the following properties:
+- It is a concatenation of one or more words consisting of english letter
+- All letters in the first word are lower case
+- For each subsequent words,the first letter is uppercase and the rest of the letters are lowercase
+
+Determine the number of words in s.
+
+ <p align="center"><img src="https://media.giphy.com/media/l3fZPYrlEGoSLvq9O/giphy.gif"></p>
+
+#### Example
+```
+s= ‘onetwothree’
+
+There are 3 words in the string- ’one’, ’two’, ’three’
+```
+#### Constraints
+```
+The camel case should contain the following parameters(s):
+- string s: the string to be analyzed
+- int: the number of words in s
+- 1<= length of s<= 10^5
+```
+     
+#### Sample Input/Output
+   ```
+   Input:  S = SaveChangesInTheEditor
+
+   Output: 5
+
+   ```
+
+#### Explanation
+   ```
+  String s contains 5 words:
+	1.save
+	2.changes
+	3.in
+	4.the
+	5.editor       
+   ```  
+  
+    
+- **References**
+    - [Strings in C](https://www.geeksforgeeks.org/strings-in-c/)
  
 ----
    
